@@ -27,7 +27,7 @@ Node.js (https://nodejs.org/en)
 
 ### Passo a passo
 
-- Baixe os arquivos do repositório e extraia em um local de sua preferência.
+- Baixe os arquivos em zip do repositório e extraia em um local de sua preferência.
 
 - Abra a pasta PetLovers-atividade1
 
