@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Home from './Pages/Home.tsx';
 import NavBar from "./components/NavBar/index.tsx";
 import Clientes from "./Pages/Clientes.tsx";
@@ -8,7 +9,8 @@ import Dashboard from "./components/DashBoard/index.tsx";
 
 export default function App() {
   return (
-      <BrowserRouter>
+    <QueryClientProvider client={new QueryClient}>
+    <BrowserRouter>
         <NavBar>
         <MainWrapper>
           <Routes>
@@ -20,5 +22,6 @@ export default function App() {
         </MainWrapper>
         </NavBar>
       </BrowserRouter>
+    </QueryClientProvider>
   )
 }
