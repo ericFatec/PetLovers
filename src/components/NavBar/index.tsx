@@ -4,12 +4,12 @@ import logo from '../../assets/pet-logo.png';
 
 
 interface NavBarProps {
-  children: React.ReactNode; // Define the children prop
+  children: React.ReactNode;
 }
 
 class Navbar extends Component<NavBarProps> {
   state = {
-    isOpen: false, // Controls mobile menu open/close state
+    isOpen: false,
   };
 
   toggleMenu = () => {
