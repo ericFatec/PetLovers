@@ -7,6 +7,8 @@ Interfaces em HTML
 
 Telas e transições
 
+CRUD
+
 # Executando o projeto
 
 ### Requisitos:
@@ -25,5 +27,10 @@ Node.js (https://nodejs.org/en)
 
   npm run dev
   ```
+
+- Em sequida abra a pasta 'executavel' com o cmd e digite o seguinte comando:
+``` bash
+java -jar pl.jar
+```
 
 - Aproveite, e ame seus pets!
