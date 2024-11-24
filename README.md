@@ -28,9 +28,9 @@ Node.js (https://nodejs.org/en)
   npm run dev
   ```
 
-- Em sequida abra a pasta 'executavel' com o cmd e digite o seguinte comando:
-``` bash
-java -jar pl.jar
-```
+- Em seguida abra a pasta 'executavel' com o cmd e digite o seguinte comando:
+  ``` bash
+  java -jar pl.jar
+  ```
 
 - Aproveite, e ame seus pets!
