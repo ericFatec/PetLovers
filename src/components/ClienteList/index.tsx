@@ -68,7 +68,7 @@ export default function ListClients() {
           {clients.map(client => (
             <tr
               key={client.id}
-              className={`border-b ${window.innerWidth < 1024 ? 'cursor-pointer' : ''} ${activeClient === client.id ? 'bg-dog-brown-100' : ''}`}
+              className={`border-b ${window.innerWidth < 1024 ? 'cursor-pointer' : ''} ${activeClient === client.id ? 'bg-dog-brown-100 text-white' : ''}`}
               onClick={() => window.innerWidth < 1024 && toggleClientActions(client.id)}
             >
               <td className="border px-4 py-2">{client.name}</td>
