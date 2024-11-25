@@ -14,6 +14,7 @@ CRUD de clientes
 ### Requisitos:
 
 Node.js (https://nodejs.org/en)
+Java Development Kit (https://www.oracle.com/java/technologies/downloads/)
 
 ### Passo a passo
 
