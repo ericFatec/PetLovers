@@ -17,7 +17,7 @@ Node.js (https://nodejs.org/en)
 
 - Baixe os arquivos do repositório e extraia em um local de sua preferência.
 
-- Abra a pasta PetLovers-atividade2
+- Abra a pasta PetLovers-atividade3
 
 - Execute o cmd dentro da pasta e digite os seguintes comandos em ordem:
   ``` bash
