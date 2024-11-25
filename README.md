@@ -7,7 +7,7 @@ Interfaces em HTML
 
 Telas e transições
 
-CRUD
+CRUD de clientes
 
 # Executando o projeto
 
